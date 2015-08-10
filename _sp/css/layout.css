@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+#wrapper {
+	background-image:url(../img/seven_bg.png);
+	background-attachment:fixed;
+	background-position:center 15%;
+	background-repeat:no-repeat;
+	-webkit-background-size: 320px 287px;
+}
+#container{
+	padding:25px 25px 5px 25px;
+}
+#map{
+	text-align:center;
+}
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#tHeader {
+	padding:40px 25px 10px 25px;
+}
+
+/*------------------------------------------------------------
+	コンテンツ
+------------------------------------------------------------*/
+#cont2{
+	margin-top:30px;
+}
+#cont3{
+	margin:30px 0 40px 0;
+}
+h2{
+	margin-bottom:10px;
+}
+#imgMap{
+	margin:20px 0;
+}
+.mapAdd{
+	margin-bottom:20px;
+}
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#btnMap{
+	float:left;
+	padding:10px 22px;
+	border:#000 solid 1px;
+	-webkit-tap-highlight-color:#AAA;
+}
+#btnCont{
+	float:right;
+	padding:10px;
+	border:#000 solid 1px;
+	-webkit-tap-highlight-color:#AAA;
+}
+#copy{
+	padding-top:15px;
+}

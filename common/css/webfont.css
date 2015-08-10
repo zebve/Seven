@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	font-family:'AXIS Font Japanese W55';
+	}
+
+
+
+
+
+
+
+/*AXIS Font Basic Extralight*/
+
+.f-ul{
+	font-family:'AxisStd-UltraLight';
+}
+
+.f-el{
+	font-family:'AxisStd-ExtraLight';
+}
+
+
+/*AXIS Font Basic Light*/
+
+.f-l{
+	font-family:'AxisStd-Light';
+}
+
+
+/*AXIS Font Basic Regular*/
+
+.f-r{
+	font-family:'AxisStd-Regular';
+}
+
+
+/*AXIS Font Basic Medium*/
+
+.f-m{
+	font-family:'AxisStd-Medium';
+}
+
+
+.f-din{
+	font-family:'DIN1451W01-Mittelschrif';
+}
+
+
+.f-din-n{
+	font-family:'DIN Next W01 Regular';
+}
+
+
+
+
+

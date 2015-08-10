@@ -1,0 +1,126 @@
+@charset "shift_jis";
+/* CSS Document */
+
+
+/*============================================================
+	Font
+============================================================*/
+* {
+	font-family:
+		"メイリオ", Meiryo,
+		"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+		Osaka,
+		"ＭＳ Ｐゴシック", "MS P Gothic",
+		sans-serif;		
+}
+/* IE7に対するフォントの種類 */
+*:first-child+html * {
+	font-family:
+		"メイリオ", Meiryo,
+		"ＭＳ Ｐゴシック", "MS P Gothic",
+		sans-serif;
+		/*line-height:1.7;*/
+}
+/* IE6に対するフォントの種類 */
+* html * {
+	font-family:
+		"メイリオ", Meiryo,
+		"ＭＳ Ｐゴシック", "MS P Gothic",
+		sans-serif;
+}
+
+span.serif{
+	font-family:"ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif;
+}
+		 
+body {
+	font-size: 12px; /* 通常のブラウザは13px */
+	*font-size: small; /* IE全般はsmall */
+	*font: x-small; /* IE6/7後方互換モードはx-small */
+}
+/* IE6以前でtableへフォントサイズの継承がうまくいかない問題を回避 */
+table {
+	font-size: inherit; font: 100%;
+}
+/* IE全般でpreやcodeの等幅フォントのサイズが小さくなるのを回避 */
+pre, code, kbd, samp, tt {
+	font-family: monospace;
+	*font-size: 108%;
+	line-height: 100%;
+}
+
+
+		 
+body {
+	font-size: 12px; /* 通常のブラウザは12px */
+	*font-size: small; /* IE全般はsmall */
+	*font: x-small; /* IE6/7後方互換モードはx-small */
+}
+/* IE6以前でtableへフォントサイズの継承がうまくいかない問題を回避 */
+table {
+	font-size: inherit; font: 100%;
+}
+/* IE全般でpreやcodeの等幅フォントのサイズが小さくなるのを回避 */
+pre, code, kbd, samp, tt {
+	font-family: monospace;
+	*font-size: 108%;
+	line-height: 100%;
+}
+
+
+.Bold {	font-weight:bold;}
+.TxtRed { color:#ff0000;}
+
+.fS3s{font-size:0.6em;line-height:1.1;}
+.fS3m{font-size:0.6em;line-height:1.2;}
+.fS3l{font-size:0.6em;line-height:1.5;}
+
+.fS2s{font-size:0.85em;line-height:1.1;}
+.fS2m{font-size:0.85em;line-height:1.4;}
+.fS2l{font-size:0.85em;line-height:1.6;}
+
+.fS1s{font-size:0.9em;line-height:1.1;}
+.fS1m{font-size:0.9em;line-height:1.4;}
+.fS1l{font-size:0.9em;line-height:1.6;}
+
+.fMs{font-size:1em;line-height:1.1;}
+.fMm{font-size:1em;line-height:1.4;}
+.fMl{font-size:1em;line-height:1.6;}
+.fMll{font-size:1em;line-height:2;}
+
+.fL1s{font-size:1.1em;line-height:1.1;}
+.fL1m{font-size:1.1em;line-height:1.4;}
+.fL1l{font-size:1.1em;line-height:1.6;}
+
+.fL2s{font-size:1.3em;line-height:1.1;}
+.fL2m{font-size:1.3em;line-height:1.4;}
+.fL2l{font-size:1.3em;line-height:1.6;}
+
+.fL3s{font-size:1.5em;line-height:1.1;}
+.fL3m{font-size:1.5em;line-height:1.4;}
+.fL3l{font-size:1.5em;line-height:1.6;}
+
+
+
+
+/*============================================================
+	テキストリンク
+============================================================*/
+a:link { color: #333;   }  
+a:visited {  color: #333; }
+a:active { color: #333;} 
+a:hover { color: #8a8000;}
+
+/*パンくず通常*/
+a.topicPath:link { color: #009d84;  text-decoration: none ; }     
+a.topicPath:visited {  color: #31408e; }
+a.topicPath:active { color: #f9be01;} 
+a.topicPath:hover { color: #f9be01;}
+
+/*パンくず背景黒*/
+#ContentsWrapBk ul li {
+	color:#fff;}
+#ContentsWrapBk a.topicPath:link { color: #009d84;  text-decoration: none ; }     
+#ContentsWrapBk a.topicPath:visited {  color: #b1e3ea; }
+a.topicPath:active { color: #f9be01;} 
+a.topicPath:hover { color: #f9be01;}

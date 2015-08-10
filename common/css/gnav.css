@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	text-align:center;
+}
+
+#main-visual{
+}
+
+
+#header{
+	width:100%;
+	text-align:center;
+	/*opacity:0.6;*/
+	z-index:99999;
+}
+
+#gnav{
+	position:relative;
+	width:1000px;
+	height:108px;
+	margin:0 auto; 
+	padding-top:25px;
+	display:block; 
+}
+
+#gnav h1{
+	float:left; 
+	width:65px;
+	margin:0 0 0 10px;
+	padding:0;
+}
+
+
+#gnav ul{
+	margin-top:14px;
+	margin-left:64px;
+	float:left; 
+	width:740px;
+}
+
+#gnav ul li{
+	float:left;
+	text-indent: -9999px;
+	overflow: hidden;	
+}
+
+
+#gnav ul li a{
+	display:block;
+	width:91px;
+	height:30px;
+	background-image:url(../img/gnav_menu.png);
+	background-repeat:no-repeat;
+	margin-right:50px;
+}
+
+
+/*LINK*/
+
+#gnav ul li#about a{
+	background-position:0px 7px;
+
+	
+}
+
+#gnav ul li#solution a{
+	background-position:-132px 7px;	
+}
+
+
+#gnav ul li#works a{
+	background-position:-356px 7px;	
+	
+}
+
+#gnav ul li#recruit a{
+	background-position:-483px 7px;	
+	
+}
+
+#gnav ul li#contact a{
+	background-position:-620px 7px;	
+	
+}
+
+/*Hover*/
+
+#gnav ul li#about a:hover{
+	background-position:0px -43px;
+
+	
+}
+
+#gnav ul li#solution a:hover{
+	background-position:-132px -43px;	
+}
+
+
+#gnav ul li#works a:hover{
+	background-position:-356px -43px;	
+	
+}
+
+#gnav ul li#recruit a:hover{
+	background-position:-483px -43px;	
+	
+}
+
+#gnav ul li#contact a:hover{
+	background-position:-620px -43px;	
+	
+}
+
+
+/*ACTIVE*/
+
+#gnav ul li#about-active a{
+	background-position:0px -43px;
+
+	
+}
+
+#gnav ul li#solution-active a{
+	background-position:-132px -43px;	
+}
+
+
+#gnav ul li#dna-active a{
+	background-position:-250px -43px;	
+}
+
+#gnav ul li#works-active a{
+	background-position:-356px -43px;	
+	
+}
+
+#gnav ul li#recruit-active a{
+	background-position:-483px -43px;	
+	
+}
+
+#gnav ul li#contact-active a{
+	background-position:-620px -43px;	
+	
+}
+
+
+
+#map a{
+	position:absolute;
+	left:875px;
+	top:40px;
+	position:absolute;
+	width:91px;
+	height:25px;
+	background-image:url(../img/gnav_menu.png);
+	background-repeat:no-repeat;
+	background-position:-751px 7px;	
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#map a:hover{
+	background-position:-751px -43px;	
+}
+
+
+
+#facebook a{
+	position:absolute;
+	top:40px;
+	left:969px;
+	width:20px;
+	height:25px;
+	background-image:url(../img/gnav_menu.png);
+	background-repeat:no-repeat;
+	background-position:-846px 7px;	
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#facebook a:hover{
+	background-position:-846px -43px;	
+}
+
+#topics{
+	position: absolute;
+	width: 700px;
+	top: 86px;
+	left: 147px;
+}
+
+
+#topics dl{
+}
+
+#topics dl dt{
+	float:left;
+	width:80px;
+}
+
+#topics dl dt img{
+	margin-top:3px
+}
+
+#topics dl dd{
+	text-align:left;
+	font-size:12px;
+}
+
+#catch{
+	width:1000px;
+	height:100%;
+	text-align:center;
+}

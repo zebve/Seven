@@ -1,0 +1,72 @@
+
+/*============================================================
+	Font
+============================================================*/
+
+* {
+	font-family:
+		"ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro",
+		"ÉÅÉCÉäÉI", Meiryo,
+		Osaka,
+		"ÇlÇr ÇoÉSÉVÉbÉN", "MS P Gothic",
+		sans-serif;
+}
+html{-webkit-text-size-adjust: none;}
+a:link{color:#000;}
+a:visited{color:#000;}
+h2,#cont1 p{
+	font-size:15px;
+	line-height:25px;
+}
+#cont2 p{
+	font-size:13px;
+	line-height:23px;
+}
+#cont3 p{
+	font-size:12px;
+	line-height:22px;
+}
+#btnMap,#btnCont{
+	font-size:10px;
+	text-align:center;
+}
+.mapAdd{
+	font-size:11px;
+	line-height:15px;
+}
+#copy{
+	font-size:9px;
+	text-align:center;
+}
+.fS3s{font-size:0.6em;line-height:1.1;}
+.fS3m{font-size:0.6em;line-height:1.2;}
+.fS3l{font-size:0.6em;line-height:1.5;}
+
+.fS2s{font-size:0.85em;line-height:1.1;}
+.fS2m{font-size:0.85em;line-height:1.4;}
+.fS2l{font-size:0.85em;line-height:1.6;}
+
+.fS1s{font-size:0.9em;line-height:1.1;}
+.fS1m{font-size:0.9em;line-height:1.4;}
+.fS1l{font-size:0.9em;line-height:1.6;}
+
+.fMs{font-size:1em;line-height:1.1;}
+.fMm{font-size:1em;line-height:1.4;}
+.fMl{font-size:1em;line-height:1.6;}
+
+.fL1s{font-size:1.1em;line-height:1.1;}
+.fL1m{font-size:1.1em;line-height:1.4;}
+.fL1l{font-size:1.1em;line-height:1.6;}
+
+.fL2s{font-size:1.3em;line-height:1.1;}
+.fL2m{font-size:1.3em;line-height:1.4;}
+.fL2l{font-size:1.3em;line-height:1.6;}
+
+.fL3s{font-size:1.5em;line-height:1.1;}
+.fL3m{font-size:1.5em;line-height:1.4;}
+.fL3l{font-size:1.5em;line-height:1.6;}
+
+
+
+
+
